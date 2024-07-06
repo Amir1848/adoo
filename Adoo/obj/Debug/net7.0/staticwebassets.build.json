@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "JVZEkzPQl1isuoVp0HnXuh677tFuomoi+8kDhnMNxVk=",
+  "Source": "Adoo",
+  "BasePath": "_content/Adoo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Adoo\\wwwroot",
+      "Source": "Adoo",
+      "ContentRoot": "E:\\adoo\\Adoo\\wwwroot\\",
+      "BasePath": "_content/Adoo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\adoo\\Adoo\\wwwroot\\index.html",
+      "SourceId": "Adoo",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\adoo\\Adoo\\wwwroot\\",
+      "BasePath": "_content/Adoo",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

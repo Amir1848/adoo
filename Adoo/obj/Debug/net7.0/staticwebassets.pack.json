@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\adoo\\Adoo\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Adoo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Adoo.props",
+      "PackagePath": "build\\Adoo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Adoo.props",
+      "PackagePath": "buildMultiTargeting\\Adoo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Adoo.props",
+      "PackagePath": "buildTransitive\\Adoo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
