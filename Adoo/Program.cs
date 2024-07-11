@@ -40,10 +40,10 @@ namespace Adoo
                         {
                             spa.Options.SourcePath = "wwwroot"; // Path to your Angular project directory
 
-                            //if (env.IsDevelopment())
-                            //{
-                            //    spa.UseProxyToSpaDevelopmentServer("http://localhost:4200"); // If using Angular CLI development server
-                            //}
+                            if (app.Environment.IsDevelopment())
+                            {
+                                spa.UseProxyToSpaDevelopmentServer("http://localhost:4200"); // If using Angular CLI development server
+                            }
                         });
                     });
 
