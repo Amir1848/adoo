@@ -61,5 +61,12 @@ namespace Adoo.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
+
+        [HttpGet]
+        [Route("getAge")]
+        public IActionResult GetAge()
+        {
+            return Ok(_authService.get_age());
+        }
     }
 }

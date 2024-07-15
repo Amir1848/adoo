@@ -88,6 +88,11 @@
                 var token = tokenHandler.CreateToken(tokenDescriptor);
                 return tokenHandler.WriteToken(token);
             }
+
+            public int get_age()
+            {
+                return 23;
+            }
         }
     }
 }
