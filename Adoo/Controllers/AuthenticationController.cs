@@ -18,7 +18,6 @@ namespace Adoo.Controllers
             _logger = logger;
         }
 
-
         [HttpPost]
         [Route("login")]
         public async Task<IActionResult> Login(LoginModel model)
@@ -60,13 +59,6 @@ namespace Adoo.Controllers
                 _logger.LogError(ex.Message);
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
-        }
-
-        [HttpGet]
-        [Route("getAge")]
-        public IActionResult GetAge()
-        {
-            return Ok(_authService.get_age());
         }
     }
 }

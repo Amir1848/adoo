@@ -8,7 +8,8 @@ namespace Adoo.Context
     {
         public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options) : base(options)
         {
-            // The base constructor handles initializing the DbContext with the provided options.
         }
+
+        public virtual DbSet<User> Users { get; set; }
     }
 }
